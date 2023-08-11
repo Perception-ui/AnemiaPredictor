@@ -100,3 +100,20 @@ A Random Forests classifier is implemented as the fifth model. Accuracy, F1-scor
 ### Model Tuning and Hyperparameter Optimization
 
 GridSearchCV is utilized to tune the hyperparameters of the models. The best parameters for Decision Trees and Gradient Boost
+### Conclusions
+Blood Parameters like haemoglobin, Packed Cell Volume and Red Blood Cell counts appears to be the primary predictors of Anemia Levels in patients.
+
+Sex appears to be a factor in the prevalence of different levels of Anemia in patients. Mild Anemia is more prevalent in females than males.Moderate/Severe Anemia is more prevalent in males than females.
+
+Age also appears to be a factor in the prevalence of Anemia.People in the range of 40-49 and 70-79 years appears to be more prevalent to moderate/severe anemia and people of age ranges 20-29 and 50-59 years are more prevalent to mild anemia.
+
+The model selected random forest model with an accuracy
+
+### Recommendations
+Features like haemoglobin, packed cell volume and red blood cell count should be the primary predictors when detecting anemia levels in patients.
+
+Specific age groups like 40-49 and 70-79 years should submit to regular screening because they are more suseptible to moderate/severa anemia.
+
+Further data should be collected on more people on the various blood parameters to increase the size of data used to train the model leading to a better performing model.
+
+Further research should be done to investigate the relationship between acohol consumption and moderate/severe anemia.
